@@ -923,7 +923,7 @@ $("#graphinput").val("")
 
 
 
-    $("body").append(`<img style="position: fixed;top: 50%;left: 50%;transform: translate(-50%,-50%) ;z-index: 20; height:40%;" id="loaderx" src="../loader-3.gif">`)
+    $("body").append(`<img style="position: fixed;top: 50%;left: 50%;transform: translate(-50%,-50%) ;z-index: 20; height:40%;" id="loaderx" >`)
 
 
 
@@ -1066,7 +1066,7 @@ Output("Graph saved successfully")
 
 
   window.onload = async function()  {
-      document.body.insertAdjacentHTML("beforeend" , `<img id = "animationplay" src="../loader-3.gif"  style= "position:fixed; top:50%;left:50%;transform:translate(-50%,-50%);z-index:-1"/>`);
+      document.body.insertAdjacentHTML("beforeend" , `<img id = "animationplay"   style= "position:fixed; top:50%;left:50%;transform:translate(-50%,-50%);z-index:-1"/>`);
       await importgraph("Final2")
 
       document.getElementById("animationplay").remove();

@@ -1,12 +1,24 @@
 
 body {
-  color: #111;
+  color: rgb(253, 251, 251);
   font-family: 'Roboto', sans-serif;
   /* background: #a7c4bc; */
   background: #E6DADA;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: -webkit-linear-gradient(to right, #171a21, #171a21);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #171a21, #171a21); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+}
+
+/* .card-title {
+  color: white;
+}
+
+.card-text {
+  color: white
+} */
+
+.btn-color {
+  color:#c7d5e0
 }
 
 .card-section {
@@ -31,10 +43,10 @@ font-style: Arial;
 }
 
 .card-section > h4 {
-  color: black;
+  color: rgb(253, 253, 253);
   margin-top: 5px;
   margin-bottom: 6px;
-  font-size: 1em;
+  font-size: 1.5em;
 }
 
 

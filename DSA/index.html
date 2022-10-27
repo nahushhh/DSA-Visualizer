@@ -4,9 +4,14 @@
   <meta charset="UTF-8">
   <title>Topics</title>
   <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Roboto&amp;display=swap'><link rel="stylesheet" href="./stylee.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
   <style>
   h2 {
 text-align: center;
+}
+body{
+  background-color: #171a21;
 }
   </style>
 
@@ -16,121 +21,275 @@ text-align: center;
 
 <div class="card-section">
 
-  <h1>Instruction for the next page!</h1>
-      <h4>0. Write the command on "Code Here" section</h4>
-      <h4>1. Many Commands are given in the info section (on the left side)</h4>
-      <h4>2. Click the Commands and it will get copy and pasted automatically, then hit ENTER to make it work</h4>
+   <h1 style="color:white; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 500; ">Instruction for the next page!</h1>
+      <h4 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ; font-weight:100;">0. Write the command on "Code Here" section.</h4>
+      <h4 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight:100; ">1. Many Commands are given in the info section (on the left side).</h4>
+      <h4 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ; font-weight:100;">2. Click the Commands and it will get copy and pasted automatically, then hit ENTER to make it work.</h4>
   <!-- <h4>"Bad programmers worry about the code. Good programmers worry about data structures and their relationships." ~ Linus Torvalds</h4> -->
   <div class="card-list">
-
-    <a href="./Array/index.html">
-      <div class="card">
-        <img src="images/Array.png" alt="">
+    
+    <!-- array card -->
+    <div class="card" style="width: 18rem;">
+      <img src=".." class="card-img-top" alt="">
+      <div style = "background-color: #c7d5e00;"class="card-body">
+        <h5 class="card-title">Array</h5>
+        <p class="card-text" >An array is a data structure consisting of a collection of elements (values or variables), each identified by at least one array index or key.<br></p>
+        <a href="./Array/index.html" ><button type="button" class="btn btn-outline-primary">Visualize</button></a>
       </div>
-    </a>
+    </div>
+        <!-- <a href="./Array/index.html">
+      <div class="card">
+        <img src="images/array.gif" alt="">
+      </div>
+    </a> -->
 
-    <a href="./SortBars/index.html">
+    <!-- sorting card -->
+    <div class="card" style="width: 18rem;">
+      <img src=".." class="card-img-top" alt="">
+      <div style = "background-color: rgb(102, 192, 244);"class="card-body">
+        <h5 class="card-title">Sorting</h5>
+        <p class="card-text">A Sorting Algorithm is used to rearrange a given array or list of elements according to a comparison operator on the elements.</p>
+        <a href="./SortBars/index.html" ><button type="button" class="btn btn-outline-light" style=" color:black" >Visualize</button></a>
+      </div>
+    </div>
+
+    <!-- <a href="./SortBars/index.html">
       <div class="card">
         <img src="images/Array (1).png" alt="">
       </div>
-    </a>
+    </a> -->
 
-    <a href="./LinkedList/index.html">
+    <!-- linked list card -->
+    <div class="card" style="width: 18rem;">
+      <img src=".." class="card-img-top" alt="">
+      <div style = "background-color: rgb(102, 192, 244));"class="card-body">
+        <h5 class="card-title">Linked List</h5>
+        <p class="card-text">A linked list is a sequence of data structures, which are connected together via links.<br><br><br></p>
+        <a href="./LinkedList/index.html" class="btn btn-outline-primary">Visualize</a>
+      </div>
+    </div>
+
+    <!-- <a href="./LinkedList/index.html">
       <div class="card">
         <img src="images/Array (2).png" alt="">
       </div>
-    </a>
+    </a> -->
 
-    <a href="./Stack/index.html">
+    <div class="card" style="width: 18rem;">
+      <img src=".." class="card-img-top" alt="">
+      <div style = "background-color: rgb(102, 192, 244);"class="card-body">
+        <h5 class="card-title">Stack</h5>
+        <p class="card-text">A stack is a conceptual structure consisting of a set of homogeneous elements and is based on the principle of last in first out (LIFO).<br><br></p>
+        <a href="./Stack/index.html" class="btn btn-outline-light" style=" color:black">Visualize</a>
+      </div>
+    </div>
+    <!-- <a href="./Stack/index.html">
       <div class="card">
         <img src="images/Array (3).png" alt="">
       </div>
-    </a>
+    </a> -->
 
-    <a href="./Queue/index.html">
+    <div class="card" style="width: 18rem;">
+      <img src=".." class="card-img-top" alt="">
+      <div style = "background-color: rgb(102, 192, 244);"class="card-body">
+        <h5 class="card-title">Queue</h5>
+        <p class="card-text">A queue is an ordered collection of items where the addition of new items happens at one end, called the “rear,” and the removal of existing items occurs at the other end, commonly called the “front.”</p>
+        <a href="./Queue/index.html" class="btn btn-outline-light" style=" color:black">Visualize</a>
+      </div>
+    </div>
+    <!-- <a href="./Queue/index.html">
       <div class="card">
         <img src="images/Array (4).png" alt="">
       </div>
-    </a>
+    </a> -->
 
-    <a href="./BST/index.html">
+
+    <div class="card" style="width: 18rem;">
+      <img src=".." class="card-img-top" alt="">
+      <div style = "background-color: rgb(102, 192, 244));"class="card-body">
+        <h5 class="card-title">Binary Search Tree</h5>
+        <p class="card-text">Binary search tree is a data structure that quickly allows us to maintain a sorted list of numbers.
+          It is called a binary tree because each tree node has a maximum of two children.</p>
+        <a href="./BST/index.html" class="btn btn-outline-primary">Visualize</a>
+      </div>
+    </div>
+    <!-- <a href="./BST/index.html">
       <div class="card">
         <img src="images/Array (5).png" alt="">
       </div>
-    </a>
+    </a> -->
 
-    <a href="./AVL/index.html">
+
+    <div class="card" style="width: 18rem;">
+      <img src=".." class="card-img-top" alt="">
+      <div style = "background-color: rgb(102, 192, 244);"class="card-body">
+        <h5 class="card-title">AVL Trees</h5>
+        <p class="card-text">An AVL tree is a type of binary search tree. Named after it's inventors Adelson, Velskii, and Landis, AVL trees have the property of dynamic self-balancing in addition to all the other properties exhibited by binary search trees.</p>
+        <a href="./AVL/index.html" class="btn btn-outline-light" style=" color:black">Visualize</a>
+      </div>
+    </div>
+    <!-- <a href="./AVL/index.html">
       <div class="card">
         <img src="images/Array (6).png" alt="">
       </div>
-    </a>
+    </a> -->
+    
+    <div class="card" style="width: 18rem;">
+      <img src=".." class="card-img-top" alt="">
+      <div style = "background-color: rgb(102, 192, 244));"class="card-body">
+        <h5 class="card-title">Red Black Trees</h5>
+        <p class="card-text">A red-black tree is a kind of self-balancing binary search tree where each node has an extra bit, and that bit is often interpreted as the color (red or black).<br><br><br></p>
+        <a href="./RedBlack/index.html" class="btn btn-outline-primary">Visualize</a>
+      </div>
+    </div>
 
-    <a href="./RedBlack/index.html">
+    <!-- <a href="./RedBlack/index.html">
       <div class="card">
         <img src="images/Array (7).png" alt="">
       </div>
-    </a>
+    </a> -->
 
-    <a href="./BTree/index.html">
+    <div class="card" style="width: 18rem;">
+      <img src=".." class="card-img-top" alt="">
+      <div style = "background-color: rgb(102, 192, 244));"class="card-body">
+        <h5 class="card-title">B-Tree </h5>
+        <p class="card-text">B Tree is a specialized m-way tree that can be widely used for disk access.<br><br><br></p>
+        <a href="./BTree/index.html" class="btn btn-outline-primary">Visualize</a>
+      </div>
+    </div>
+    <!-- <a href="./BTree/index.html">
       <div class="card">
         <img src="images/Array (8).png" alt="">
       </div>
-    </a>
+    </a> -->
 
-    <a href="./Heap/index.html">
+    <div class="card" style="width: 18rem;">
+      <img src=".." class="card-img-top" alt="">
+      <div style = "background-color: rgb(102, 192, 244);"class="card-body">
+        <h5 class="card-title">Heap</h5>
+        <p class="card-text">A max-heap is a complete binary tree in which the value in each internal node is greater than or equal to the values in the children of that node.</p>
+        <a href="./Heap/index.html" class="btn btn-outline-light" style=" color:black">Visualize</a>
+      </div>
+    </div>
+    <!-- <a href="./Heap/index.html">
       <div class="card">
         <img src="images/Array (9).png" alt="">
       </div>
-    </a>
+    </a> -->
 
-    <a href="./MinHeap/index.html">
+    <div class="card" style="width: 18rem;">
+      <img src=".." class="card-img-top" alt="">
+      <div style = "background-color: rgb(102, 192, 244));"class="card-body">
+        <h5 class="card-title">Min Heap</h5>
+        <p class="card-text">A Min-Heap is a complete binary tree in which the value in each internal node is smaller than or equal to the values in the children of that node.</p>
+        <a href="./MinHeap/index.html" class="btn btn-outline-primary">Visualize</a>
+      </div>
+    </div>
+    <!-- <a href="./MinHeap/index.html">
       <div class="card">
         <img src="images/Array (10).png" alt="">
       </div>
-    </a>
+    </a> -->
 
-    <a href="./Priorityqueue/index.html">
+    <div class="card" style="width: 18rem;">
+      <img src=".." class="card-img-top" alt="">
+      <div style = "background-color: rgb(102, 192, 244);"class="card-body">
+        <h5 class="card-title">Priority Queue</h5>
+        <p class="card-text">In a priority queue, generally, the value of an element is considered for assigning the priority.<br><br><br></p>
+        <a href="./Priorityqueue/index.html" class="btn btn-outline-light" style=" color:black">Visualize</a>
+      </div>
+    </div>
+    <!-- <a href="./Priorityqueue/index.html">
       <div class="card">
         <img src="images/Array (18).png" alt="">
       </div>
-    </a>
+    </a> -->
 
-    <a href="./TOH/index.html">
+    <div class="card" style="width: 18rem;">
+      <img src=".." class="card-img-top" alt="">
+      <div style = "background-color: rgb(102, 192, 244);"class="card-body">
+        <h5 class="card-title">Tower of Hanoi</h5>
+        <p class="card-text">There are 3 disks.Only one disk can be moved at a time. Only the uppermost disk can be moved from one stack to the top of another stack or to an empty rod. Larger disks cannot be placed on top of smaller disks.</p>
+        <a href="./TOH/index.html" class="btn btn-outline-light" style=" color:black">Visualize</a>
+      </div>
+    </div>
+    <!-- <a href="./TOH/index.html">
       <div class="card">
         <img src="images/Array (12).png" alt="">
       </div>
-    </a>
+    </a> -->
 
-    <a href="./Huffman/index.html">
+    <div class="card" style="width: 18rem;">
+      <img src=".." class="card-img-top" alt="">
+      <div style = "background-color: rgb(102, 192, 244));"class="card-body">
+        <h5 class="card-title">Huffman Encoding</h5>
+        <p class="card-text">Huffman coding is a method of data compression that is independent of the data type, that is, the data could represent an image, audio or spreadsheet.<br><br><br></p>
+        <a href="./Huffman/index.html" class="btn btn-outline-primary">Visualize</a>
+      </div>
+    </div>
+    <!-- <a href="./Huffman/index.html">
       <div class="card">
         <img src="images/Array (13).png" alt="">
       </div>
-    </a>
+    </a> -->
 
-    <a href="./DP/index.html">
+
+    <div class="card" style="width: 18rem;">
+      <img src=".." class="card-img-top" alt="">
+      <div style = "background-color: rgb(102, 192, 244);"class="card-body">
+        <h5 class="card-title">Dynamic Programming</h5>
+        <p class="card-text">Dynamic programming is both a mathematical optimization method and a computer programming method.<br><br><br><br></p>
+        <a href="./DP/index.html" class="btn btn-outline-light" style=" color:black">Visualize</a>
+      </div>
+    </div>
+    <!-- <a href="./DP/index.html">
       <div class="card">
         <img src="images/Array (14).png" alt="">
       </div>
-    </a>
+    </a> -->
 
-    <a href="./nQueen/index.html">
+    <div class="card" style="width: 18rem;">
+      <img src=".." class="card-img-top" alt="">
+      <div style = "background-color: rgb(255, 255, 255);"class="card-body">
+        <h5 class="card-title">N-Queen Problem</h5>
+        <p class="card-text">The n-queens puzzle is the problem of placing n queens on an n x n chessboard such that no two queens attack each other.<br><br><br><br></p>
+        <a href="./nQueen/index.html" class="btn btn-outline-primary">Visualize</a>
+      </div>
+    </div>
+    <!-- <a href="./nQueen/index.html">
       <div class="card">
         <img src="images/Array (15).png" alt="">
       </div>
-    </a>
+    </a> -->
 
-    <a href="./Graph/index.html">
+    <div class="card" style="width: 18rem;">
+      <img src=".." class="card-img-top" alt="">
+      <div style = "background-color: rgb(102, 192, 244);"class="card-body">
+        <h5 class="card-title">Graphs</h5>
+        <p class="card-text">A Graph is a non-linear data structure consisting of vertices and edges.<br><br><br><br><br></p>
+        <a href="./Graph/index.html" class="btn btn-outline-light" style=" color:black">Visualize</a>
+      </div>
+    </div>
+    <!-- <a href="./Graph/index.html">
       <div class="card">
         <img src="images/Array (11).png" alt="">
       </div>
-    </a>
+    </a> -->
 
 
-    <a href="./Sudoku/index.html">
+    <div class="card" style="width: 18rem;">
+      <img src=".." class="card-img-top" alt="">
+      <div style = "background-color: rgb(102, 192, 244));"class="card-body">
+        <h5 class="card-title">Sudoku</h5>
+        <p class="card-text">Each cell may contain a number from one to nine, and each number can only occur once in each row, column, and box. A Sudoku starts with some cells containing numbers (clues), and the goal is to solve the remaining cells.</p>
+        <a href="./Sudoku/index.html" class="btn btn-outline-primary">Visualize</a>
+      </div>
+    </div>
+    <!-- <a href="./Sudoku/index.html">
       <div class="card">
         <img src="images/Array (17).png" alt="">
       </div>
-    </a>
+    </a> -->
 
 
   </div>

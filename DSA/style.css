@@ -15,7 +15,13 @@ body
 
 
 }
-  .dragg {
+
+.bg-color{
+  background-color: #2a475e;
+}
+  
+
+.dragg {
 
     width: 80px;
 
@@ -44,7 +50,7 @@ body
      height: 80px;
 
 
-     background-color:rgba(255, 120, 80, 0.842);
+     background-color:rgba(255, 255, 255, 0.842);
 
       font-family: Segoe UI;
 
@@ -127,15 +133,15 @@ left: 3%;
 font-size:230%;
 font-family: consolas;
 color: #1b1717;
-position: fixed;
+position: absolute;
 text-decoration:none;
 height: 120px;
 z-index: 10;
 /* background-color:#bb8082; */
-background-color:#d99879;
+background-color:#6DAFD5;
 /* box-shadow:  0 0  60px red; */
-box-shadow: 0 10px 8px 10px #f4cca4;
-border-radius: 30px;
+/* box-shadow: 0 10px 8px 10px #f4cca4; */
+border-radius: 15px;
 
 
 
@@ -633,7 +639,7 @@ vertical-align: middle;
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background: linear-gradient(to left,#FF512F, #DD2476 );
+  background: linear-gradient(to left,#ffffff, #ffffff );
   cursor: default;
 }
 
